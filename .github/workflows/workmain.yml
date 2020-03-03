@@ -1,21 +1,12 @@
-  name: GitHub Docker Action
+  name: "GitHub Docker Action"
   uses: matootie/github-docker@v2.2.2
-  with:
-    # GitHub Repository Token to log in using.
+  with: 
     accessToken: fa8e1fe7cca16440f2daf388c16318c01759e5ea
-    # Where should GitHub Docker find the Dockerfile, relative to the root of the repository.
-    context: # optional, default is .
-    # GitHub user to publish the image on behalf of.
-    username: # optional
-    # The repository to push the image to. Defaults to current repository. Must be specified in format user/repo
-    repositoryName: # optional
-    # The desired name for the image. Defaults to current repository name.
-    imageName: # optional
-    # The desired tag for the image. Defaults to current branch or release version number.
-    imageTag: # optional
-    # Added to the beginning of the tag.
-    imageTagPrefix: # optional
-    # Added to the end of the tag.
-    imageTagSuffix: # optional
-    # The build arguments for image.
-    buildArgs: # optional
+    buildArgs: ~
+    context: ~
+    imageName: ~
+    imageTag: ~
+    imageTagPrefix: ~
+    imageTagSuffix: ~
+    repositoryName: ~
+    username: ~

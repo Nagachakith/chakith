@@ -1,4 +1,4 @@
-- name: GitHub Docker Action
+  name: GitHub Docker Action
   uses: matootie/github-docker@v2.2.2
   with:
     # GitHub Repository Token to log in using.
